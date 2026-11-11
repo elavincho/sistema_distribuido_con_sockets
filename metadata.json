@@ -1,0 +1,6 @@
+{
+  "name": "Distributed Socket System Architecture & Python Implementation",
+  "description": "Interactive distributed client-server architecture workbench with socket gateways, HAProxy load balancing, worker thread pools, RabbitMQ messaging, PostgreSQL and S3 storage, plus production Python repository code and documentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
