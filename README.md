@@ -22,4 +22,81 @@ Esto evita que un solo servidor colapse si recibe demasiadas peticiones.
 
 
 
+---
+
+## Instalación
+
+```bash
+git clone https://github.com/elavincho/PFO3_Redes.git
+cd PFO3_Redes
+python -m venv venv
+```
+## Activar el entorno virtual:
+
+```bash
+Windows (PowerShell): .\venv\Scripts\Activate.ps1
+```
+
+```bash
+Windows (CMD): venv\Scripts\activate.bat
+```
+
+```bash
+macOS / Linux: source venv/bin/activate
+```
+
+## Instalar depencencias:
+
+```bash
+pip install flask requests
+```
+
+## Ejecución
+
+  **Utilizaremos 4 terminales.**
+
+  **1. Levantar el servidor (worker 1):**
+
+```bash
+python worker_socket.py 5001
+```
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/worker_1.png" width="" height="" alt="worker_1"/>
+
+  - El Servidor se inicia en http://127.0.0.1:5001.
+
+**2. Levantar el servidor (worker 2):**
+
+```bash
+python worker_socket.py 5002
+```
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/worker_2.png" width="" height="" alt="worker_2"/>
+
+  - El Servidor se inicia en http://127.0.0.1:5002.
+
+  **3. Iniciamos el Balanceador**
+
+```bash
+python balanceador.py
+```
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/balanceador%20de%20carga.png" width="" height="" alt="balanceador"/>
+
+- Balanceador escuchando en http://127.0.0.1:8080.
+
+**4. Iniciamos el cliente**
+
+```bash
+python cliente.py
+```
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/cliente.png" width="" height="" alt="cliente"/>
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/cliente_2.png" width="" height="" alt="cliente"/>
+
+
+
+
+
 
