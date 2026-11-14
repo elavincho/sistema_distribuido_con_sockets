@@ -96,6 +96,15 @@ python cliente.py
 <img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/cliente_2.png" width="" height="" alt="cliente"/>
 
 
+## Rediseño como Sistema Distribuido
+
+Para escalar el sistema y soportar múltiples clientes concurrentes sin que el 
+servidor colapse, se rediseñó la arquitectura usando **sockets TCP**, un 
+**balanceador de carga** y **servidores workers con pools de hilos**.
+
+### Diagrama Sistema Distribuido
+
+<img src="https://github.com/elavincho/PFO3_Redes/blob/master/img/diagrama_sistema_distribuido.jpg" width="" height="" alt="diagrama"/>
 
 
 
