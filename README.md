@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/7NbZbdx2/ifts29.png" width="80" height="80" alt="ifts-29"/>
+<img src="https://i.ibb.co/SDCBhGd9/ifts29.png" width="80" height="80" alt="ifts-29"/>
 
 # Programación sobre Redes
 
