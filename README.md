@@ -2,8 +2,6 @@
 
 # Programación sobre Redes
 
-## Práctica Formativa Obligatoria 3
-
 ## Rediseño como Sistema Distribuido (Cliente-Servidor). Transformar el sistema en una arquitectura distribuida usando sockets.
 
 ### ¿Cómo funciona la arquitectura?
