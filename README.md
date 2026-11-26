@@ -2,7 +2,9 @@
 
 # Programación sobre Redes
 
-## Rediseño como Sistema Distribuido (Cliente-Servidor). Transformar el sistema en una arquitectura distribuida usando sockets.
+## Rediseño como Sistema Distribuido (Cliente-Servidor). 
+
+## Transformar el sistema en una arquitectura distribuida usando sockets.
 
 ### ¿Cómo funciona la arquitectura?
 
